@@ -73,6 +73,19 @@
       pointer-events: none;
     }
 
+    /* subtle global analysis visual cue: faint world map */
+    header::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 400'%3E%3Cg fill='%238fb3d9' fill-opacity='0.06'%3E%3Ccircle cx='120' cy='200' r='60'/%3E%3Ccircle cx='260' cy='170' r='80'/%3E%3Ccircle cx='420' cy='210' r='90'/%3E%3Ccircle cx='600' cy='190' r='70'/%3E%3Ccircle cx='720' cy='220' r='50'/%3E%3C/g%3E%3C/svg%3E");
+      background-size: 900px;
+      background-repeat: no-repeat;
+      background-position: center 60%;
+      opacity: 0.25;
+      pointer-events: none;
+    }
+
     nav {
       display: flex;
       justify-content: space-between;
@@ -146,6 +159,15 @@
       color: var(--muted);
       margin-bottom: 24px;
       letter-spacing: 0.02em;
+    }
+
+    .briefing-bar {
+      font-size: 0.8rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent-strong);
+      margin-bottom: 14px;
+      opacity: 0.85;
     }
 
     .hero-meta {
@@ -363,6 +385,7 @@
         </p>
         <div class="author-line">Analysis by <strong>Thomas Chevalier</strong> · Barcelona</div>
         <div class="small" style="margin-bottom:18px;letter-spacing:0.05em;text-transform:uppercase;color:var(--muted);">Strategic Risk & Geopolitical Briefings</div>
+        <div class="briefing-bar">Global Strategic Risk Briefing Series</div>
         <div class="hero-meta">
           <span class="pill">Geopolitics</span>
           <span class="pill">Global Economic Systems</span>
@@ -386,10 +409,10 @@
           Global Systems Risk Analysis examines how geopolitical developments interact with global economic systems and strategic industries. The focus is on understanding how political shocks, security dynamics, and macroeconomic disruption reshape the environment in which multinational companies and financial institutions operate.
         </p>
         <p>
-          Particular attention is given to the transmission channels through which geopolitical change propagates across the global economy and how these dynamics translate into strategic risk for internationally exposed organizations.
+          Particular attention is given to the systemic channels through which geopolitical change propagates across the global economy and how these dynamics translate into strategic risk for internationally exposed organizations.
         </p>
         <p>
-          The platform combines geopolitical analysis and international political economy with business and consulting acumen to provide concise assessments relevant to corporate strategy, enterprise risk management, and long‑term investment decisions.
+          The platform combines geopolitics and international political economy with business and consulting acumen to provide concise assessments relevant to corporate strategy, enterprise risk management, and long‑term investment decisions.
         </p>
         <div class="quote">
           The objective is to connect geopolitical analysis with the strategic concerns of companies, financial
@@ -408,7 +431,7 @@
             <li>Energy systems, logistics networks, and strategic supply-chain risk</li>
             <li>Technology competition, industrial policy, and innovation ecosystems</li>
             <li>Strategic implications for banking, financial institutions, and multinational companies</li>
-            <li>Scenario-based assessments</li>
+            <li>Scenario-based assessments of the global operating environment</li>
           </ul>
         </div>
 
@@ -431,7 +454,7 @@
         <div class="small" style="margin-bottom:10px;">Latest updates and short analytical notes on geopolitical developments affecting global markets.</div>
         <h2 class="section-title">Selected Analysis</h2>
         <p class="section-intro">
-Selected analytical briefings on geopolitical developments and their implications for global markets and strategic risk.
+Selected analytical briefings.
         </p>
 
         <div class="post-grid">
@@ -439,7 +462,7 @@ Selected analytical briefings on geopolitical developments and their implication
             <div>
               <div class="post-label">Briefing 01</div>
               <div class="post-title">𝗚𝗲𝗼𝗽𝗼𝗹𝗶𝘁𝗶𝗰𝗮𝗹 𝗧𝗿𝗮𝗻𝘀𝗺𝗶𝘀𝘀𝗶𝗼𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝘀 (𝟭): 𝗛𝗼𝗿𝗺𝘂𝘇 𝗮𝗻𝗱 𝗢𝗶𝗹 𝗦𝗵𝗼𝗰𝗸𝘀</div>
-              <div class="post-note">A short briefing on why assessing global structures and flows—not just events—is critical.</div>
+              <div class="post-note">Why assessing global structures and flows—not just events—is critical.</div>
             </div>
             <a class="post-link" href="https://www.linkedin.com/posts/activity-7437333689023447040-ccIF?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAnfS6oBbsT9SvG3RrqWACHTAhGJRR3QATw" target="_blank">Read →</a>
           </article>
@@ -448,7 +471,7 @@ Selected analytical briefings on geopolitical developments and their implication
             <div>
               <div class="post-label">Briefing 02</div>
               <div class="post-title">𝗚𝗲𝗼𝗽𝗼𝗹𝗶𝘁𝗶𝗰𝗮𝗹 𝗧𝗿𝗮𝗻𝘀𝗺𝗶𝘀𝘀𝗶𝗼𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝘀 (𝟮): 𝗥𝗲𝗱 𝗦𝗲𝗮 𝗗𝗶𝘀𝗿𝘂𝗽𝘁𝗶𝗼𝗻𝘀 𝗮𝗻𝗱 𝘁𝗵𝗲 𝗧𝗶𝗺𝗲 𝗗𝗶𝗺𝗲𝗻𝘀𝗶𝗼𝗻 𝗼𝗳 𝗚𝗹𝗼𝗯𝗮𝗹 𝗧𝗿𝗮𝗱𝗲</div>
-              <div class="post-note">If energy shocks tend to propagate primarily through prices, logistics disruptions tend to propagate primarily through 𝘵𝘪𝘮𝘦.</div>
+              <div class="post-note">Energy shocks propagate primarily through prices, logistics disruptions propagate primarily through 𝘵𝘪𝘮𝘦.</div>
             </div>
             <a class="post-link" href="https://www.linkedin.com/posts/activity-7437802630845804545-ZEjf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAnfS6oBbsT9SvG3RrqWACHTAhGJRR3QATw" target="_blank">Read →</a>
           </article>
@@ -469,7 +492,8 @@ Selected analytical briefings on geopolitical developments and their implication
           <div class="section-kicker">Professional Contact</div>
           <h2 class="section-title">Contact</h2>
           <p>
-            For professional inquiries, networking, or discussion, connect through LinkedIn:
+            For professional inquiries, networking, or discussion related to geopolitical risk, enterprise risk, and
+            strategic planning:
           </p>
           <ul class="contact-list">
             <li>LinkedIn: <a href="https://www.linkedin.com/in/thomasgchevalier" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/thomasgchevalier</a></li>
